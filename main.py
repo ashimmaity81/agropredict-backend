@@ -31,7 +31,7 @@ app = FastAPI()
 # -----------------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://agropredict06.netlify.app","https://agropredict06lpu.netlify.app/"],
+    allow_origins=["https://agropredict06.netlify.app","https://agropredict06lpu.netlify.app","*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
